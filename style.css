@@ -1,0 +1,95 @@
+/* Algemene styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #333;
+  padding: 1rem 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 4rem 2rem;
+}
+
+#projects h2,
+#contact h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Project grid */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.project-box {
+  background-color: #ccc;
+  height: 150px;
+  border-radius: 8px;
+}
+
+/* About me */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.about-text {
+  flex: 2;
+}
+
+.about-image {
+  flex: 1;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.footer-image {
+  margin: 1rem auto 0;
+  width: 50px;
+  height: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}
